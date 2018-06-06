@@ -1,0 +1,19 @@
+{
+  "name": "react-router-simplify",
+  "version": "1.0.0",
+  "description": "React components to simplify the usage of react-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilolucasmd/react-router-simplify.git"
+  },
+  "author": "Danilo de Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilolucasmd/react-router-simplify/issues"
+  },
+  "homepage": "https://github.com/danilolucasmd/react-router-simplify#readme"
+}
