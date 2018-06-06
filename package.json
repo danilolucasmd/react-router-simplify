@@ -2,18 +2,37 @@
   "name": "react-router-simplify",
   "version": "1.0.0",
   "description": "React components to simplify the usage of react-router",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danilolucasmd/react-router-simplify.git"
   },
-  "author": "Danilo de Lucas",
+  "author": "danilolucasmd",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danilolucasmd/react-router-simplify/issues"
   },
-  "homepage": "https://github.com/danilolucasmd/react-router-simplify#readme"
+  "homepage": "https://github.com/danilolucasmd/react-router-simplify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-watch": "^3.1.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.3.0"
+  }
 }
