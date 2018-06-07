@@ -1,6 +1,6 @@
 {
   "name": "react-router-simplify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React components to simplify the usage of react-router",
   "main": "build/index.js",
   "scripts": {
