@@ -4,6 +4,8 @@ See [Demo](https://danilolucasmd.github.io/react-router-simplify-example)
 
 See [Example](https://danilolucasmd.github.io/react-router-simplify-example)
 
+See [API.md]() for details
+
 ## Requirements
 
 * React >= 16.0.0
