@@ -4,7 +4,7 @@ See [Demo](https://danilolucasmd.github.io/react-router-simplify-example)
 
 See [Example](https://danilolucasmd.github.io/react-router-simplify-example)
 
-See [API.md]() for details
+See [API.md](https://github.com/danilolucasmd/react-router-simplify/blob/master/API.md) for details
 
 ## Requirements
 
